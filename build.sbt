@@ -79,6 +79,16 @@ lazy val dataset = project
   ))
   .dependsOn(core % "test->test;compile->compile")
 
+lazy val blockchain = project
+  .settings(name := "volaland-blockchain")
+  .settings(volalandSettings: _*)
+  .settings(GTBDatasetREPL: _*)
+  .settings(libraryDependencies ++= Seq(
+    "org.apache.spark" %% "spark-core" % sparkVersion % "provided",
+    "org.apache.spark" %% "spark-streaming"  % sparkVersion % "provided"
+  ))
+  .dependsOn(core % "test->test;compile->compile")
+
 lazy val ml = project
   .settings(name := "volaland-ml")
   .settings(volalandSettings: _*)
