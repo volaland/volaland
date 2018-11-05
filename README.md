@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# [volaland](https://github.com/volaland/volaland)
 
-You can use the [editor on GitHub](https://github.com/volaland/volaland/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[volaland](https://github.com/volaland/volaland) is a Scala library for working with [Spark](http://spark.apache.org/) using geo spatial time series blockchain with proof of time&location consensus protocol. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It consists of the following modules:
 
-### Markdown
+* `gtb-dataset` for the spatial time series blockchain `Dataset` API   
+* `gtb-ml` for the Spark ML API based on `gtb-dataset`
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Related projects and algorithms
 
-```markdown
-Syntax highlighted code block
+[A Time Series Library for Apache Spark](https://github.com/twosigma/flint)
+[Geo Spatial Data Analytics on Spark](https://github.com/harsha2010/magellan)
+[TransmogrifAI for building strongly typed machine learning workflows on Spark](https://github.com/salesforce/TransmogrifAI)
+[Frameless library for working with Spark using more expressive types](https://github.com/typelevel/frameless)
 
-# Header 1
-## Header 2
-### Header 3
+[Hyperledger](https://github.com/hyperledger/)
 
-- Bulleted
-- List
+[Community detection](https://neo4j.com/developer/graph-algorithms/#algorithms-louvain)
+[GraphQL and time-series data](https://blog.timescale.com/timescaledb-hasura-graphql-time-series-data-analysis-396520225547)
 
-1. Numbered
-2. List
+## Quick Start
 
-**Bold** and _Italic_ and `Code` text
+volaland is compiled against Scala 2.11.x.
 
-[Link](url) and ![Image](src)
-```
+## Need help?
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Feel free to messages us on our [gitter](https://gitter.im/volaland) channel for any issues/questions.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/volaland/volaland/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## License
+Code is provided under the Apache 2.0 license available at http://opensource.org/licenses/Apache-2.0,
+as well as in the LICENSE file. This is the same license used as Spark.
