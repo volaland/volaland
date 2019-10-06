@@ -10,13 +10,17 @@ It consists of the following modules:
 # Related projects and algorithms
 
 [A Time Series Library for Apache Spark](https://github.com/twosigma/flint)
+
 [Geo Spatial Data Analytics on Spark](https://github.com/harsha2010/magellan)
+
 [TransmogrifAI for building strongly typed machine learning workflows on Spark](https://github.com/salesforce/TransmogrifAI)
+
 [Frameless library for working with Spark using more expressive types](https://github.com/typelevel/frameless)
 
 [Hyperledger](https://github.com/hyperledger/)
 
 [Community detection](https://neo4j.com/developer/graph-algorithms/#algorithms-louvain)
+
 [GraphQL and time-series data](https://blog.timescale.com/timescaledb-hasura-graphql-time-series-data-analysis-396520225547)
 
 ## Quick Start
